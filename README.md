@@ -70,7 +70,7 @@ ssl-certificate-checker/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/priya-yadav-dev/ssl-certificate-checker.git
+git clone https://github.com/priyayadav200/ssl-certificate-checker.git
 cd ssl-certificate-checker
 
 # 2. Install dependencies
