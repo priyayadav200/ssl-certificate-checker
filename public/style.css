@@ -46,6 +46,19 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
+  font-optical-sizing: auto;
+  font-size: 14px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+.mono, code {
+  font-family: 'Ubuntu', 'SF Mono', 'Consolas', monospace;
+  font-size: 12px;
+  letter-spacing: 0;
 }
 
 a { color: inherit; text-decoration: none; }
@@ -439,7 +452,7 @@ a { color: inherit; text-decoration: none; }
   font-size: 12px;
   font-weight: 600;
   color: var(--text-mid);
-  font-family: 'SF Mono', 'Consolas', 'Courier New', monospace;
+  font-family: 'Ubuntu', 'SF Mono', 'Consolas', monospace;
   cursor: pointer;
   transition: all 0.15s;
 }
@@ -692,7 +705,7 @@ dd {
   word-break: break-all;
 }
 
-.mono { font-family: 'SF Mono', 'Consolas', monospace; font-size: 11.5px; }
+.mono { font-family: 'Ubuntu', 'SF Mono', 'Consolas', monospace; font-size: 11.5px; }
 .truncate { max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: inline-block; }
 
 /* Expandable Cards (SAN, Chain) */
@@ -769,7 +782,7 @@ dd {
   font-size: 12.5px;
   font-weight: 600;
   color: var(--text);
-  font-family: 'SF Mono', 'Consolas', monospace;
+  font-family: 'Ubuntu', 'SF Mono', 'Consolas', monospace;
   transition: all 0.15s;
 }
 .san-tag:hover { border-color: var(--orange); color: var(--orange); }
